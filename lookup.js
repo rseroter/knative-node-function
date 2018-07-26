@@ -7,5 +7,5 @@ module.exports = function (customerid) {
     //return static results
     var customer = {id: customerid, name:'Richard', title:'phony developer'};
 
-    return customer;
+    return JSON.stringify(customer);
 }
